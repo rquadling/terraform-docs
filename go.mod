@@ -21,7 +21,7 @@ require (
 	github.com/rquadling/terraform-config-inspect@latest
 	golang.org/x/exp v0.0.0-20251209150349-8475f28825e9
 	gopkg.in/yaml.v3 v3.0.1
-	honnef.co/go/tools v0.3.2
+	honnef.co/go/tools v0.4.6
 	mvdan.cc/xurls/v2 v2.6.0
 )
 
