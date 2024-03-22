@@ -73,7 +73,7 @@ jobs:
 
       - name: Check License headers
         run: |
-          GO111MODULE=off go install github.com/google/addlicense
+          GO111MODULE=on go install github.com/google/addlicense
 
           addlicense -check $(find . -type f -name "*.go")
           addlicense -check $(find . -type f -name "*.sh")
