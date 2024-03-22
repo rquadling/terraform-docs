@@ -24,6 +24,7 @@ import (
 	"github.com/hashicorp/hcl/v2/hclsimple"
 
 	"github.com/rquadling/terraform-config-inspect/tfconfig"
+
 	"github.com/terraform-docs/terraform-docs/internal/reader"
 	"github.com/terraform-docs/terraform-docs/internal/types"
 	"github.com/terraform-docs/terraform-docs/print"
