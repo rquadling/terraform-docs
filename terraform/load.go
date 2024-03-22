@@ -14,7 +14,6 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"io/ioutil"
 	"os"
 	"os/exec"
 	"path/filepath"
@@ -24,7 +23,7 @@ import (
 
 	"github.com/hashicorp/hcl/v2/hclsimple"
 
-	"github.com/hashicorp/terraform-config-inspect/tfconfig"
+	"github.com/rquadling/terraform-config-inspect/tfconfig"
 	"github.com/terraform-docs/terraform-docs/internal/reader"
 	"github.com/terraform-docs/terraform-docs/internal/types"
 	"github.com/terraform-docs/terraform-docs/print"
@@ -148,7 +147,7 @@ func loadSection(config *print.Config, file string, section string) (string, err
 		return "", err // user explicitly asked for a file which doesn't exist
 	}
 	if getFileFormat(file) != ".tf" {
-		content, err := ioutil.ReadFile(filepath.Clean(filename))
+		content, err := os.ReadFile(filepath.Clean(filename))
 		if err != nil {
 			return "", err
 		}
@@ -320,7 +319,7 @@ func loadOutputValues(config *print.Config) (map[string]*output, error) {
 		if out, err = cmd.Output(); err != nil {
 			return nil, fmt.Errorf("caught error while reading the terraform outputs: %w", err)
 		}
-	} else if out, err = ioutil.ReadFile(config.OutputValues.From); err != nil {
+	} else if out, err = os.ReadFile(config.OutputValues.From); err != nil {
 		return nil, fmt.Errorf("caught error while reading the terraform outputs file at %s: %w", config.OutputValues.From, err)
 	}
 	var terraformOutputs map[string]*output
