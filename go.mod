@@ -72,5 +72,3 @@ require (
 	google.golang.org/protobuf v1.34.2 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 )
-
-replace github.com/hashicorp/terraform-config-inspect => github.com/rquadling/terraform-config-inspect v0.0.0-20240930095033-1cdb1a202cc3
