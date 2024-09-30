@@ -6,7 +6,7 @@
 # You may obtain a copy of the License at the LICENSE file in
 # the root directory of this source tree.
 
-FROM golang:1.22.1-alpine AS builder
+FROM docker.io/library/golang:1.23.1-alpine AS builder
 
 RUN apk add --update --no-cache make
 
@@ -21,11 +21,11 @@ RUN make build
 
 ################
 
-FROM alpine:3.19.0
+FROM docker.io/library/alpine:3.20.3
 
 # Mitigate CVE-2023-5363
 RUN apk add --no-cache --upgrade "openssl>=3.1.4-r1"
 
-COPY --from=builder /go/src/terraform-docs/bin/linux-amd64/terraform-docs /usr/local/bin/
+COPY --from=builder /go/src/terraform-docs/bin/linux-*/terraform-docs /usr/local/bin/
 
 ENTRYPOINT ["terraform-docs"]
