@@ -260,7 +260,7 @@ generates the following output:
 
     === [[input_input-with-code-block]] <<input_input-with-code-block,input-with-code-block>>
 
-    Description: This is a complicated one. We need a newline.  
+    Description: This is a complicated one. We need a newline.
     And an example in a code block
     ```
     default     = [
@@ -521,4 +521,4 @@ generates the following output:
 
     It looks exactly like a header, but is placed at the end of the document
 
-[examples]: https://github.com/terraform-docs/terraform-docs/tree/master/examples
+[examples]: https://github.com/rquadling/terraform-docs/tree/master/examples

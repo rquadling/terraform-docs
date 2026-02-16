@@ -501,4 +501,4 @@ generates the following output:
       ]
     }
 
-[examples]: https://github.com/terraform-docs/terraform-docs/tree/master/examples
+[examples]: https://github.com/rquadling/terraform-docs/tree/master/examples

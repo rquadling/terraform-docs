@@ -137,4 +137,4 @@ jobs:
 #          git-commit-message: |-
 #            Update website content
 #
-#            from: https://github.com/terraform-docs/terraform-docs/commit/${{ github.sha }}
+#            from: https://github.com/rquadling/terraform-docs/commit/${{ github.sha }}

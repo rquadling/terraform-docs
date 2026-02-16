@@ -436,4 +436,4 @@ generates the following output:
       version = "latest"
       description = ""
 
-[examples]: https://github.com/terraform-docs/terraform-docs/tree/master/examples
+[examples]: https://github.com/rquadling/terraform-docs/tree/master/examples

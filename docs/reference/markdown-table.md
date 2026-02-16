@@ -193,4 +193,4 @@ generates the following output:
 
     It looks exactly like a header, but is placed at the end of the document
 
-[examples]: https://github.com/terraform-docs/terraform-docs/tree/master/examples
+[examples]: https://github.com/rquadling/terraform-docs/tree/master/examples
