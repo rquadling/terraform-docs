@@ -91,8 +91,8 @@ github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 h1:Jamvg5psRI
 github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/rogpeppe/go-internal v1.13.2-0.20241226121412-a5dc8ff20d0a h1:w3tdWGKbLGBPtR/8/oO74W6hmz0qE5q0z9aqSAewaaM=
 github.com/rogpeppe/go-internal v1.13.2-0.20241226121412-a5dc8ff20d0a/go.mod h1:S8kfXMp+yh77OxPD4fdM6YUknrZpQxLhvxzS4gDHENY=
-github.com/rquadling/terraform-config-inspect v0.0.0-20260724153847-326d8064dedc h1:1QseJP3J3Eim6jWxwsrsDnTzypIiE8i0xJCiZ+r7XR0=
-github.com/rquadling/terraform-config-inspect v0.0.0-20260724153847-326d8064dedc/go.mod h1:67/lgDW3bupCwtzLHpUJUMWFgTN7cY0ulxeB1bUH7Ik=
+github.com/rquadling/terraform-config-inspect v0.0.0-20261005163830-40e8fdf15795 h1:Xb3C5paZ417XMtB0rgavP2suvFqiCRppZ9IdeG+wiUo=
+github.com/rquadling/terraform-config-inspect v0.0.0-20261005163830-40e8fdf15795/go.mod h1:67/lgDW3bupCwtzLHpUJUMWFgTN7cY0ulxeB1bUH7Ik=
 github.com/russross/blackfriday/v2 v2.1.0/go.mod h1:+Rmxgy9KzJVeS9/2gXHxylqXiyQDYRxCVz55jmeOWTM=
 github.com/sagikazarmark/locafero v0.12.0 h1:/NQhBAkUb4+fH1jivKHWusDYFjMOOKU88eegjfxfHb4=
 github.com/sagikazarmark/locafero v0.12.0/go.mod h1:sZh36u/YSZ918v0Io+U9ogLYQJ9tLLBmM4eneO6WwsI=

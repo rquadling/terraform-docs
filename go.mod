@@ -14,7 +14,7 @@ require (
 	github.com/hashicorp/hcl/v2 v2.24.0
 	github.com/iancoleman/orderedmap v0.3.0
 	github.com/mitchellh/go-homedir v1.1.0
-	github.com/rquadling/terraform-config-inspect v0.0.0-20260724153847-326d8064dedc
+	github.com/rquadling/terraform-config-inspect v0.0.0-20261005163830-40e8fdf15795
 	github.com/spf13/cobra v1.10.2
 	github.com/spf13/pflag v1.0.10
 	github.com/spf13/viper v1.21.0
