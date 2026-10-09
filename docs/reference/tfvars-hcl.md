@@ -110,7 +110,7 @@ generates the following output:
     string-3                    = ""
     string-special-chars        = "\\.<>[]{}_-"
     string_default_empty        = ""
-    string_default_null         = ""
+    string_default_null         = null
     string_no_default           = ""
     unquoted                    = ""
     variable_with_no_validation = ""
