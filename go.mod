@@ -69,3 +69,5 @@ require (
 	google.golang.org/protobuf v1.36.11 // indirect
 	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
 )
+
+retract v0.24.0-raq.2 // tag pointed at the wrong commit; use v0.24.0-raq.3
